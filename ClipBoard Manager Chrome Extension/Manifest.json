@@ -1,0 +1,12 @@
+{
+  "name": "ClipBoard Manager",
+  "version": "1.0",
+  "description": "It is a clipboard manager that helps to manage your clipboard",
+  "icons": { "128": "icon1.png" },
+  "browser_action": {
+    "default_icon": "icon1.png",
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "permissions": ["activeTab","clipboardRead","clipboardWrite"]
+}
